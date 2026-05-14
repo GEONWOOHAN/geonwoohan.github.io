@@ -242,25 +242,6 @@ li + li {
   font-size: 1.02rem;
 }
 
-.trait-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-top: 2.2rem;
-}
-
-.trait-list span,
-.blog-stats span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.2rem;
-  padding: 0.35rem 0.75rem;
-  border-radius: 999px;
-  color: var(--accent-dark);
-  background: var(--soft);
-  font-weight: 800;
-}
-
 .item {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 11rem;
@@ -292,28 +273,38 @@ li + li {
   background: var(--soft);
 }
 
-.skill-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2rem 3rem;
+.skill-block {
+  max-width: 900px;
+  padding-bottom: 2rem;
 }
 
-.compact-list {
-  padding-left: 1.1rem;
+.skill-block:last-child {
+  padding-bottom: 0;
+}
+
+.skill-block p {
+  max-width: 780px;
+  margin: 0.7rem 0 0;
   color: var(--muted);
+  word-break: keep-all;
 }
 
-.blog-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin: 2rem 0;
+.skill-list {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 0.65rem 1.2rem;
+  margin: 1rem 0 0;
 }
 
-.blog-stats strong {
-  margin-right: 0.25rem;
+.skill-list dt {
   color: var(--accent);
-  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.skill-list dd {
+  margin: 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
 }
 
 .post-list {
@@ -409,7 +400,7 @@ li + li {
 
   .section-content,
   .contact-line,
-  .trait-list {
+  .post-list {
     max-width: calc(100vw - 3rem);
   }
 
@@ -426,7 +417,7 @@ li + li {
 @media (max-width: 640px) {
   .section-content,
   .contact-line,
-  .trait-list,
+  .post-list,
   .lead {
     max-width: min(100%, 340px);
   }
@@ -460,7 +451,12 @@ li + li {
     padding-inline: 1.1rem;
   }
 
-  .skill-grid {
+  .skill-list {
     grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .skill-list dd {
+    margin-bottom: 0.7rem;
   }
 }
