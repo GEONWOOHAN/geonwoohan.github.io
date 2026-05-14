@@ -1,6 +1,6 @@
-# GEONWOOHAN.github.io
+# HAN Geon Woo | Kakam
 
-GitHub Pages user site for `GEONWOOHAN`.
+GitHub Pages user site for `GEONWOOHAN`, styled as a resume/CV page and based on public blog records from `보안공부일지`.
 
 ## 배포 방법
 
