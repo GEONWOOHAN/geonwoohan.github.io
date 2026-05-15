@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 2.2rem;
   color: var(--accent);
   font-size: clamp(2.2rem, 5vw, 3.6rem);
 }
@@ -175,14 +175,14 @@ li + li {
 }
 
 .resume-section {
-  min-height: 100vh;
   display: flex;
-  align-items: center;
-  padding: 5rem 3rem;
+  align-items: flex-start;
+  padding: 4.25rem 3rem;
 }
 
 .resume-section.about {
-  min-height: 100vh;
+  padding-top: 4.8rem;
+  padding-bottom: 4.35rem;
   background:
     linear-gradient(90deg, rgba(93, 111, 60, 0.08), rgba(255, 255, 255, 0) 42%),
     #fff;
@@ -212,7 +212,7 @@ li + li {
 }
 
 .subheading {
-  margin: 0.3rem 0 1.8rem;
+  margin: 0.3rem 0 1.15rem;
   color: var(--muted);
   font-family: "Saira Extra Condensed", "Arial Narrow", "Noto Sans KR", sans-serif;
   font-size: 1.35rem;
@@ -232,7 +232,7 @@ li + li {
 }
 
 .name-en {
-  margin: 0 0 1rem;
+  margin: 0 0 0.7rem;
   font-family: "Saira Extra Condensed", "Arial Narrow", "Noto Sans KR", sans-serif;
   font-size: clamp(2.2rem, 5vw, 4.25rem);
   font-weight: 800;
@@ -256,7 +256,7 @@ li + li {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 11rem;
   gap: 2rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
 }
 
 .item:last-child {
