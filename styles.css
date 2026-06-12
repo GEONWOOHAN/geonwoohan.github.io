@@ -221,6 +221,11 @@ li + li {
   overflow-wrap: anywhere;
 }
 
+.item .subheading {
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
 .contact-line {
   display: flex;
   flex-wrap: wrap;
@@ -452,6 +457,10 @@ li + li {
 
   .subheading {
     font-size: 0.98rem;
+  }
+
+  .item .subheading {
+    font-size: 0.92rem;
   }
 
   .name-en {

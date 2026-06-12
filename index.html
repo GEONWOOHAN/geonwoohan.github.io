@@ -37,6 +37,7 @@
         <a href="#publication">논문</a>
         <a href="#activity">활동</a>
         <a href="#projects">프로젝트</a>
+        <a href="#bug-bounty">버그바운티</a>
         <a href="#skill">보유기술</a>
         <a href="#blog">블로그</a>
       </nav>
@@ -235,20 +236,6 @@
           <h2>프로젝트</h2>
           <article class="item">
             <div>
-              <h3>OpenProject 버그바운티 취약점 제보</h3>
-              <p class="subheading">OpenProject · CVE-2026-52779, CVE-2026-47193</p>
-              <p>
-                OpenProject를 대상으로 Calendar/Team Planner Query 삭제 권한 우회
-                취약점(CVE-2026-52779)과 Journal Diff 권한 검증 우회 취약점
-                (CVE-2026-47193)을 제보했습니다. 두 취약점은 GitHub Security Advisory로
-                공개되었으며, 프로젝트 경계와 객체/필드 가시성 검증 관점에서 접근 제어
-                문제를 분석했습니다.
-              </p>
-            </div>
-            <time>2026.06</time>
-          </article>
-          <article class="item">
-            <div>
               <h3>IRP &amp; API 후킹을 통한 랜섬웨어 탐지 및 복호화 연구</h3>
               <p class="subheading">BoB 14기 Digital Forensics 프로젝트</p>
               <p>
@@ -325,6 +312,38 @@
               </p>
             </div>
             <time>2023.05 - 2023.07</time>
+          </article>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="resume-section" id="bug-bounty">
+        <div class="section-content">
+          <h2>버그바운티</h2>
+          <article class="item">
+            <div>
+              <h3>CVE-2026-52779 - OpenProject Calendar/Team Planner Query 삭제 권한 우회</h3>
+              <p class="subheading">OpenProject · GitHub Security Advisory</p>
+              <p>
+                Calendar/Team Planner의 public query 삭제 과정에서 project context 검증이
+                충분하지 않아 권한이 없는 프로젝트의 query를 삭제할 수 있는 취약점을
+                제보했습니다.
+              </p>
+            </div>
+            <time>2026.06</time>
+          </article>
+          <article class="item">
+            <div>
+              <h3>CVE-2026-47193 - OpenProject Journal Diff 권한 검증 우회</h3>
+              <p class="subheading">OpenProject · GitHub Security Advisory</p>
+              <p>
+                Journal Diff endpoint에서 object, journal, field visibility 검증이
+                충분하지 않아 제한된 변경 이력의 text 값을 조회할 수 있는 취약점을
+                제보했습니다.
+              </p>
+            </div>
+            <time>2026.06</time>
           </article>
         </div>
       </section>
