@@ -168,17 +168,6 @@
           <h2>활동</h2>
           <article class="item">
             <div>
-              <h3>버그바운티</h3>
-              <p class="subheading">OpenProject · CVE-2026-47193</p>
-              <ul>
-                <li>OpenProject Journal Diff 권한 검증 우회 취약점 제보</li>
-                <li>GitHub Security Advisory 공개 및 CVE-2026-47193 발급</li>
-              </ul>
-            </div>
-            <time>2026.06</time>
-          </article>
-          <article class="item">
-            <div>
               <h3>HSPACE Knights</h3>
               <p class="subheading">HSPACE</p>
             </div>
@@ -244,6 +233,20 @@
       <section class="resume-section" id="projects">
         <div class="section-content">
           <h2>프로젝트</h2>
+          <article class="item">
+            <div>
+              <h3>OpenProject 버그바운티 취약점 제보</h3>
+              <p class="subheading">OpenProject · CVE-2026-52779, CVE-2026-47193</p>
+              <p>
+                OpenProject를 대상으로 Calendar/Team Planner Query 삭제 권한 우회
+                취약점(CVE-2026-52779)과 Journal Diff 권한 검증 우회 취약점
+                (CVE-2026-47193)을 제보했습니다. 두 취약점은 GitHub Security Advisory로
+                공개되었으며, 프로젝트 경계와 객체/필드 가시성 검증 관점에서 접근 제어
+                문제를 분석했습니다.
+              </p>
+            </div>
+            <time>2026.06</time>
+          </article>
           <article class="item">
             <div>
               <h3>IRP &amp; API 후킹을 통한 랜섬웨어 탐지 및 복호화 연구</h3>
@@ -372,6 +375,8 @@
                 XSS, CSRF, SQL Injection, NoSQL Injection, SSRF, 파일 업로드 취약점,
                 Path Traversal, OAuth 2.0, OIDC, JWT, 인증/인가 취약점
               </dd>
+              <dt>버그바운티 및 CVE</dt>
+              <dd>OpenProject, CVE-2026-52779, CVE-2026-47193, 권한 검증 우회, 접근 제어 검증, GitHub Security Advisory</dd>
               <dt>암호학</dt>
               <dd>대칭키 암호, 공개키 암호, RSA, 해시 함수, XOR, 모듈러 연산</dd>
               <dt>네트워크 및 인프라 보안</dt>
