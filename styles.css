@@ -58,7 +58,7 @@ h3 {
 
 h1 {
   color: #212529;
-  font-size: clamp(2.8rem, 6vw, 4.6rem);
+  font-size: clamp(1.8rem, 4vw, 3rem);
 }
 
 .name-en,
@@ -443,7 +443,7 @@ li + li {
   }
 
   h1 {
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
 
   h2 {
