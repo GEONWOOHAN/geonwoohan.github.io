@@ -58,7 +58,7 @@ h3 {
 
 h1 {
   color: #212529;
-  font-size: clamp(3.2rem, 8vw, 6rem);
+  font-size: clamp(2.8rem, 6vw, 4.6rem);
 }
 
 .name-en,
@@ -67,14 +67,14 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.9rem;
   color: var(--accent);
-  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-size: clamp(1.85rem, 4vw, 2.8rem);
 }
 
 h3 {
   color: #343a40;
-  font-size: 1.55rem;
+  font-size: 1.45rem;
 }
 
 small {
@@ -239,7 +239,7 @@ li + li {
 .name-en {
   margin: 0 0 0.7rem;
   font-family: "Saira Extra Condensed", "Arial Narrow", "Noto Sans KR", sans-serif;
-  font-size: clamp(2.2rem, 5vw, 4.25rem);
+  font-size: clamp(1.8rem, 4vw, 3rem);
   font-weight: 800;
   line-height: 1;
   text-transform: uppercase;
@@ -249,7 +249,7 @@ li + li {
   max-width: 760px;
   margin: 0 0 1.25rem;
   color: var(--muted);
-  font-size: 1.15rem;
+  font-size: 1.02rem;
   word-break: keep-all;
 }
 
@@ -443,16 +443,16 @@ li + li {
   }
 
   h1 {
-    font-size: 3.25rem;
+    font-size: 2.75rem;
   }
 
   h2 {
-    margin-bottom: 2rem;
-    font-size: 2.35rem;
+    margin-bottom: 1.65rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.22rem;
   }
 
   .subheading {
@@ -464,11 +464,11 @@ li + li {
   }
 
   .name-en {
-    font-size: 2.35rem;
+    font-size: 2rem;
   }
 
   .lead {
-    font-size: 1rem;
+    font-size: 0.98rem;
   }
 
   .resume-section {
