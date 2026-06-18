@@ -58,7 +58,7 @@ h3 {
 
 h1 {
   color: #212529;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(1.65rem, 3.5vw, 2.5rem);
 }
 
 .name-en,
@@ -239,10 +239,10 @@ li + li {
 .name-en {
   margin: 0 0 0.7rem;
   font-family: "Saira Extra Condensed", "Arial Narrow", "Noto Sans KR", sans-serif;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(1.65rem, 3.5vw, 2.5rem);
   font-weight: 800;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .lead {
@@ -443,7 +443,7 @@ li + li {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   h2 {
@@ -464,7 +464,7 @@ li + li {
   }
 
   .name-en {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .lead {
