@@ -344,6 +344,30 @@
             </div>
             <time>2026.06</time>
           </article>
+          <article class="item">
+            <div>
+              <h3>GHSA-vhfq-8mwf-g79w</h3>
+              <p class="subheading">OpenProject · GitHub Security Advisory</p>
+              <p>
+                LDAP on-the-fly registration 과정에서 로컬 사용자 생성 전에는 로그인 실패
+                횟수가 기록되지 않아 애플리케이션 수준의 brute-force protection을 우회할 수
+                있는 문제를 제보했습니다.
+              </p>
+            </div>
+            <time>2026.07</time>
+          </article>
+          <article class="item">
+            <div>
+              <h3>GHSA-fv8m-h8hc-57gq</h3>
+              <p class="subheading">OpenProject · GitHub Security Advisory</p>
+              <p>
+                CSV 내 사용자 입력이 스프레드시트 수식으로 처리되어 파일을 열었을 때
+                외부 요청을 통해 데이터가 유출될 수 있는 CSV Formula Injection 문제를
+                제보했습니다.
+              </p>
+            </div>
+            <time>2026.07</time>
+          </article>
         </div>
       </section>
 
@@ -384,7 +408,7 @@
               <dt>운영체제 및 개발 도구</dt>
               <dd>Git, Linux, Windows</dd>
               <dt>클라우드 및 컨테이너</dt>
-              <dd>Docker, Kubernetes, Linux Namespaces</dd>
+              <dd>Docker, Kubernetes, Minikube, Linux Namespaces, NFS</dd>
               <dt>임베디드 및 하드웨어</dt>
               <dd>Arduino, Raspberry Pi, FPGA, Verilog, Vivado, I2C, UART</dd>
               <dt>회로 및 계측</dt>
@@ -403,22 +427,22 @@
                 safe-linking, seccomp, 퍼징
               </dd>
               <dt>디지털 포렌식</dt>
-              <dd>FTK Imager, Volatility 3, WinPmem, FAT32, NTFS, ext4, exFAT 파일시스템 분석, MFT 분석, 파일 카빙</dd>
+              <dd>FTK Imager, Volatility 3, WinPmem, binwalk, foremost, FAT32, NTFS, ext4, exFAT 파일시스템 분석, MFT 분석, 파일 카빙</dd>
               <dt>악성코드 및 랜섬웨어 분석</dt>
               <dd>
                 정적·동적 분석, CAPA, Windows MiniFilter, API 후킹,
-                IRP 분석, 행위 기반 탐지, 감염 파일 복호화
+                IRP 분석, 프로세스 인젝션, 행위 기반 탐지, 감염 파일 복호화
               </dd>
               <dt>암호학</dt>
-              <dd>AES, RSA, ChaCha8/ChaCha20, X25519, SHA-256, CBC/GCM</dd>
+              <dd>AES, RSA, Diffie-Hellman, DSA, ChaCha8/ChaCha20, X25519, SHA-256, HMAC, CBC/GCM, Padding Oracle, Length Extension</dd>
               <dt>웹 보안</dt>
               <dd>
                 Burp Suite, XSS, CSRF, SQL/NoSQL Injection, Command Injection,
                 SSRF, LFI, Path Traversal, 파일 업로드 취약점, Race Condition,
-                OAuth 2.0, OIDC, JWT
+                CSP, CORS, DOM-based XSS, DOM Clobbering, CSTI, OAuth 2.0, OIDC, JWT
               </dd>
-              <dt>네트워크 및 DPU 보안</dt>
-              <dd>Nmap, tcpdump, Scapy, 패킷 분석, SmartNIC/DPU, NVIDIA BlueField, DOCA, P4, DPL, P4Runtime, 5G Core 보안</dd>
+              <dt>네트워크 및 인프라 보안</dt>
+              <dd>Nmap, Wireshark, tcpdump, Scapy, iptables, Linux Bridge, veth, OVS, OpenFlow, 패킷 분석, SmartNIC/DPU, NVIDIA BlueField, DOCA, P4, DPL, P4Runtime, 5G Core 보안</dd>
               <dt>AI/LLM 보안</dt>
               <dd>Prompt Injection, Jailbreaking, RAG Poisoning, AI Agent/Multi-Agent 보안, LLM Watermarking, AI 기반 취약점 탐지</dd>
             </dl>
