@@ -308,6 +308,24 @@ li + li {
   line-height: 1.65;
 }
 
+.participation-history {
+  margin-top: 0.75rem;
+  font-size: 0.98rem;
+}
+
+.participation-history summary {
+  width: fit-content;
+  max-width: 100%;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.participation-history summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
 .item.highlight {
   padding: 1.3rem 1.45rem;
   margin-bottom: 1.5rem;
