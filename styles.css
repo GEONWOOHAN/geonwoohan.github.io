@@ -308,6 +308,28 @@ li + li {
   line-height: 1.65;
 }
 
+#bug-bounty .item > div {
+  display: contents;
+}
+
+#bug-bounty .item {
+  row-gap: 0;
+}
+
+#bug-bounty .item h3,
+#bug-bounty .item .subheading {
+  grid-column: 1;
+}
+
+#bug-bounty .item ul {
+  grid-column: 1 / -1;
+}
+
+#bug-bounty .item time {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
 #bug-bounty .item li {
   overflow-wrap: anywhere;
 }
@@ -489,6 +511,12 @@ li + li {
 
   .item time {
     text-align: left;
+  }
+
+  #bug-bounty .item time {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 0.5rem;
   }
 }
 
