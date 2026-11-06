@@ -308,6 +308,15 @@ li + li {
   line-height: 1.65;
 }
 
+#bug-bounty .item li {
+  overflow-wrap: anywhere;
+}
+
+#bug-bounty .item li strong,
+#bug-bounty .item li a {
+  font: inherit;
+}
+
 .participation-history {
   margin-top: 0.75rem;
   font-size: 0.98rem;
